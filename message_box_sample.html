@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+</head>
+<body>
+
+<script src="./message_boxes.js" type="text/javascript"></script>
+<script type="text/javascript">
+cn.messageFadeInOut({
+  message: 'message',
+  image: 'path to image',
+  timing: {st:1000, ed:3000} // ms
+});
+cn.messageSlideInOut({
+  message: 'message',
+  image: 'path to image',
+  timing: {st:3500, ed:5500}
+});
+cn.messageDoubleBoundIn({
+  message: 'message',
+  image: 'path to image',
+  timing: {st:6000, ed:8000}
+});
+etcr.messageFadeInOut({
+  message: 'message',
+  image: 'path to image',
+  timing: {st:8500, ed:10500},
+  withFlush: true
+});
+</script>
+
+</body></html>
